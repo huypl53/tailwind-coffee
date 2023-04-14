@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cf-icon {
+  @apply w-5 h-5 inline-block;
+}
+
+.cf-badge-cicle {
+  @apply rounded-full px-1.5 text-center text-xs;
+}
+
+.cf-top-menu-item {
+  @apply py-1 relative text-gray-500 text-center hover:text-gray-800 lg:after:absolute lg:after:bg-light-coffee lg:after:h-0.5 lg:after:bottom-0 lg:after:left-0 lg:after:w-0 hover:lg:after:w-full lg:after:transition-all lg:after:duration-300 lg:after:ease-in-out cursor-pointer;
+}
+
+.cf-top-menu-vert-expanded {
+  @apply absolute top-10 z-50 w-full bg-white animate-slideDown;
+}

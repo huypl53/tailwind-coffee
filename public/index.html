@@ -4,9 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffe style</title>
-    <link href="./output.css" rel="stylesheet" />
+    <link href="output.css" rel="stylesheet" />
+    <link ref="icon" href="./img/favicon/favicon.ico" size="16x16" />
+    <script src="./main.js" type="text/javascript" async></script>
   </head>
   <body>
-    <h1 class="text-3xl font-bold text-red-300">Hello world!</h1>
+    <div class="root">
+      <div class="bg-slate-300 max-w-screen-2xl mx-auto px-8">
+        <header class="p-6 mx-auto">
+          <nav class="flex flex-row justify-between items-center relative">
+            <div class="cursor-pointer basis-2/6 font-bold text-center">
+              <span>CoffeStyles</span>
+            </div>
+            <ul
+              id="cf-top-menu"
+              class="hidden lg:basis-3/6 lg:flex justify-between items-center gap-8 text-sm"
+            >
+              <li class="cf-top-menu-item">HOME</li>
+              <li class="cf-top-menu-item">OUR PRODUCTS</li>
+              <li class="cf-top-menu-item">BLOG</li>
+              <li class="cf-top-menu-item">ABOUT</li>
+              <li class="cf-top-menu-item">CONTACT</li>
+              <li class="cf-top-menu-item">STYLE GUIDE</li>
+            </ul>
+            <ul
+              class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start ml-16"
+            >
+              <li class="cf-top-menu-item">
+                <a href="#" class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="cf-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+                  <span class="px-1.5">CART</span>
+                  <span class="cf-badge-cicle text-white bg-orange-300"
+                    >10</span
+                  >
+                </a>
+              </li>
+            </ul>
+            <div class="basis-1/6 lg:hidden px-2 sm:px-4">
+              <svg
+                id="cf-toggle-top-menu-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="cf-icon cursor-pointer"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
+          </nav>
+        </header>
+        <main></main>
+        <footer>
+          <ul>
+            <li>slider</li>
+            <li>featured</li>
+            <li>more products</li>
+            <li>coffe magazine</li>
+            <li>subscribe-us</li>
+            <li>footer</li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+
+    <!-- End root -->
   </body>
 </html>
