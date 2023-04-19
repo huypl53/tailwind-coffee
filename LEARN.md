@@ -6,3 +6,13 @@
 # Elements
 
 - `element.classList.toggle("className")` // Add or remove className from element
+
+# Style
+
+- bg
+- letter spacing:
+  - tracking-\*
+
+# Q&A
+
+- Ways to make element center
