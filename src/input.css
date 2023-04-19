@@ -17,3 +17,11 @@
 .cf-top-menu-vert-expanded {
   @apply absolute top-10 z-50 w-full bg-white animate-slideDown;
 }
+
+.cf-label-headline {
+  @apply w-8 h-0.5 bg-gray-100;
+}
+
+.cf-label-text {
+  @apply uppercase mx-3 font-[300];
+}

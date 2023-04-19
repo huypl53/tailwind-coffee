@@ -537,18 +537,6 @@ video {
   margin-left: 4rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.block {
-  display: block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
 }
@@ -680,6 +668,11 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -688,16 +681,6 @@ video {
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .text-center {
@@ -747,16 +730,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-300 {
-  transition-duration: 300ms;
 }
 
 .cf-icon {
@@ -833,29 +806,33 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.cf-label-headline {
+  height: 0.125rem;
+  width: 2rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.cf-label-text {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
 }
 
-.after\:-bottom-0::after {
+.after\:-bottom-2::after {
   content: var(--tw-content);
-  bottom: -0px;
-}
-
-.after\:-bottom-0\.5::after {
-  content: var(--tw-content);
-  bottom: -0.125rem;
+  bottom: -0.5rem;
 }
 
 .after\:left-0::after {
   content: var(--tw-content);
   left: 0px;
-}
-
-.after\:-bottom-2::after {
-  content: var(--tw-content);
-  bottom: -0.5rem;
 }
 
 .after\:h-0::after {
@@ -871,12 +848,6 @@ video {
 .after\:w-full::after {
   content: var(--tw-content);
   width: 100%;
-}
-
-.after\:bg-coffee-200::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(200 159 148 / var(--tw-bg-opacity));
 }
 
 .after\:bg-coffee-50::after {
