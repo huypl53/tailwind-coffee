@@ -11,7 +11,7 @@
 }
 
 .cf-top-menu-item {
-  @apply py-1 relative text-gray-500 text-center hover:text-gray-800 lg:after:absolute lg:after:bg-light-coffee lg:after:h-0.5 lg:after:bottom-0 lg:after:left-0 lg:after:w-0 hover:lg:after:w-full lg:after:transition-all lg:after:duration-300 lg:after:ease-in-out cursor-pointer;
+  @apply py-1 relative text-gray-500 text-center hover:text-gray-800 lg:after:absolute lg:after:bg-coffee-200 lg:after:h-0.5 lg:after:bottom-0 lg:after:left-0 lg:after:w-0 hover:lg:after:w-full lg:after:transition-all lg:after:duration-300 lg:after:ease-in-out cursor-pointer;
 }
 
 .cf-top-menu-vert-expanded {

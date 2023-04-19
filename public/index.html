@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="root">
-      <div class="bg-slate-300 max-w-screen-2xl mx-auto px-8">
+      <div class="max-w-screen-2xl mx-auto px-8">
         <header class="p-6 mx-auto">
           <nav class="flex flex-row justify-between items-center relative">
             <div class="cursor-pointer basis-2/6 font-bold text-center">
@@ -20,12 +20,24 @@
               id="cf-top-menu"
               class="hidden lg:basis-3/6 lg:flex justify-between items-center gap-8 text-sm"
             >
-              <li class="cf-top-menu-item">HOME</li>
-              <li class="cf-top-menu-item">OUR PRODUCTS</li>
-              <li class="cf-top-menu-item">BLOG</li>
-              <li class="cf-top-menu-item">ABOUT</li>
-              <li class="cf-top-menu-item">CONTACT</li>
-              <li class="cf-top-menu-item">STYLE GUIDE</li>
+              <li class="cf-top-menu-item">
+                <a href="#">HOME</a>
+              </li>
+              <li class="cf-top-menu-item">
+                <a href="#">OUR PRODUCTS</a>
+              </li>
+              <li class="cf-top-menu-item">
+                <a href="#">BLOG</a>
+              </li>
+              <li class="cf-top-menu-item">
+                <a href="#">ABOUT</a>
+              </li>
+              <li class="cf-top-menu-item">
+                <a href="#">CONTACT</a>
+              </li>
+              <li class="cf-top-menu-item">
+                <a href="#">STYLE GUIDE</a>
+              </li>
             </ul>
             <ul
               class="basis-3/6 lg:basis-1/6 flex justify-end lg:justify-start ml-16"
@@ -72,7 +84,52 @@
             </div>
           </nav>
         </header>
-        <main></main>
+        <main>
+          <div
+            class="bg-cover h-[530px] bg-[url('./img/slider-bg.jpg')] bg-bottom"
+          >
+            <div
+              class="w-full h-full flex flex-col items-center justify-center text-white text-center bg-gray-900 bg-opacity-40"
+            >
+              <div class="uppercase mb-6">best place to buy coffee</div>
+              <div class="font-medium text-6xl mb-8">Coffee Mugs</div>
+              <div class="font-medium mb-8">
+                The most versatile furniture system ever created. Designed to
+                fit your life, made to move and grow.
+              </div>
+              <div
+                class="bg-white text-black tracking-wider uppercase text-sm font-medium p-5 cursor-pointer hover:bg-opacity-95"
+              >
+                explore our products
+              </div>
+            </div>
+          </div>
+          <div class="story">
+            <div class="flex justify-center items-center py-32 px-16">
+              <div class="text-center">
+                <div class="px-6 leading-10">
+                  Even the all-powerful Pointing has no control about the blind
+                  texts.
+                </div>
+                <div class="mb-6">
+                  It is a paradisematic country, in which roasted parts of
+                  sentences fly into your mouth. Even the all-powerful Pointing
+                  has no control about the blind texts it is an almost
+                  unorthographic life One day however a small line of blind text
+                  by the name of Lorem Ipsum decided to leave for the far World
+                  of Grammar.
+                </div>
+                <div>
+                  <a
+                    class="text-coffee-200 relative after:absolute after:w-full after:left-0 after:h-0.5 hover:after:bg-coffee-200 after:bg-coffee-50 after:-bottom-2 cursor-pointer after:transition-all after:duration-300 after:ease-in-out"
+                  >
+                    Read the full Story
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
         <footer>
           <ul>
             <li>slider</li>
