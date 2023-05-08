@@ -23,3 +23,15 @@
 .cf-badge-cicle {
   @apply text-xs text-center rounded-full px-1.5;
 }
+
+.cf-subheadline {
+  @apply flex justify-center items-center my-16;
+}
+
+.cf-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-200;
+}
+
+.cf-subheadline-label {
+  @apply uppercase mx-4 text-gray-500 font-medium text-xs text-center tracking-widest;
+}
