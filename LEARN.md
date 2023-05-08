@@ -16,3 +16,26 @@
 # Q&A
 
 - Ways to make element center
+
+```css
+/* using margin */
+margin-left: auto;
+margin-right: auto;
+
+/* using flex */
+display: flex;
+align-items: center;
+
+/* align with parent's postion and align itself */
+position: absolute
+left: 50% /* 50% parent width */
+transform: translate(-50%) /* translate itself by 50% of its border-box * /
+```
+
+- Grid elements
+
+```css
+/* gap */
+
+/* n-columns */
+```
