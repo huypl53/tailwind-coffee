@@ -39,3 +39,11 @@ transform: translate(-50%) /* translate itself by 50% of its border-box * /
 
 /* n-columns */
 ```
+
+- Animation philosophy
+
+```css
+/* @keyframes defines the states of element state by state 
+  `animation` defines the way to present @keyframes: timing, how it emerges then disappears
+*/
+```

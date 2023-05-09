@@ -109,7 +109,7 @@
                 </div>
                 <div class="flex justify-center">
                   <div
-                    class="uppercase bg-white text-gray-900 w-max tracking-wider py-4 px-6 text-sm font-medium cursor-pointer hover:bg-opacity-95"
+                    class="cf-button bg-white text-gray-900 w-max tracking-wider py-4 px-6 text-sm font-medium cursor"
                   >
                     Explore Our Products
                   </div>
@@ -141,15 +141,15 @@
             <div class="cf-subheadline-label">Featured Mugs</div>
             <div class="cf-subheadline-deco-line"></div>
           </div>
-          <div class="w-[65%] mx-auto mb-24">
-            <div class="grid grid-cols-2 gap-4">
-              <div class="cf-product-card border-2 h-[540px]">
+          <div class="w-[95%] lg:w-[65%] mx-auto mb-24">
+            <div class="grid gap-8 lg:grid-cols-2 lg:gap-4">
+              <div class="cf-product-card border-2 h-[440px] sm:h-[540px]">
                 <div
                   class="h-[540px] bg-[url('./img/featured-mug-01.jpg')] bg-cover bg-no-repeat bg-center"
                 >
                   <a href="#" alt="coffee">
                     <div
-                      class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative"
+                      class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group"
                     >
                       <div
                         class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400"
@@ -157,21 +157,54 @@
                         On Sale.
                       </div>
                       <div
-                        class="absolute uppercase bg-white text-gray-900 w-11/12 tracking-wider left-1/2 -translate-x-1/2 py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-90 text-center bottom-4"
+                        class="cf-button absolute uppercase bg-white text-gray-900 w-11/12 tracking-wider left-1/2 -translate-x-1/2 bottom-4 hidden group-hover:block group-hover:animate-fadeIn"
                       >
                         Explore Mug
                       </div>
                     </div>
                   </a>
                 </div>
+                <div class="text-center mt-8">
+                  <a href="#" alt="product">
+                    <div class="text-xl mb-3 hover:text-coffee-400">
+                      Pink Premium Ceramic
+                    </div>
+                  </a>
+                  <!-- <span class="text-lg text-coffee-400">$50.00</span> -->
+                  <span class="ml-2 text-gray-500">$69.00 USD</span>
+                </div>
               </div>
-              <div class="cf-product-card border-2 border-coffee-600 h-[540px]">
+              <div class="cf-product-card border-2 h-[440px] sm:h-[540px]">
                 <div
                   class="h-[540px] bg-[url('./img/featured-mug-02.jpg')] bg-cover bg-no-repeat bg-center"
                 >
-                  <a href="#">
-                    <div class="w-full h-full"></div>
+                  <a href="#" alt="coffee">
+                    <div
+                      class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group"
+                    >
+                      <div
+                        class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 text-center font-semibold text-coffee-400"
+                      >
+                        On Sale.
+                      </div>
+                      <div
+                        class="cf-button absolute uppercase bg-white text-gray-900 w-11/12 tracking-wider left-1/2 -translate-x-1/2 bottom-4 hidden group-hover:block group-hover:animate-fadeIn"
+                      >
+                        Explore Mug
+                      </div>
+                    </div>
                   </a>
+                </div>
+                <div class="text-center mt-8">
+                  <a href="#" alt="product">
+                    <div class="text-xl mb-3 hover:text-coffee-400">
+                      Golden Designers Mug
+                    </div>
+                  </a>
+                  <span class="text-lg text-coffee-400">$50.00</span>
+                  <span class="ml-2 text-gray-400 line-through"
+                    >$69.00 USD</span
+                  >
                 </div>
               </div>
             </div>
