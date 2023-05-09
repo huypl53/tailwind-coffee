@@ -15,6 +15,8 @@
 
 # Q&A
 
+- If child has width or height that is greater than parent's ones, the margin is calculated for the parent
+
 - Ways to make element center
 
 ```css
@@ -47,3 +49,7 @@ transform: translate(-50%) /* translate itself by 50% of its border-box * /
   `animation` defines the way to present @keyframes: timing, how it emerges then disappears
 */
 ```
+
+- Make a mask above element
+  > put a <a/> inside that element. Inside that <a/> put a <div/> with full width and full height
+  > Put a block inside an inline?
