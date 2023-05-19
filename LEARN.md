@@ -20,16 +20,17 @@
 - Ways to make element center
 
 ```css
-/* using margin */
+/* child using margin */
+position: absolute; /* parent is positioned*/
 margin-left: auto;
 margin-right: auto;
-
-/* using flex */
+width: <specified-value>
+/* parent using flex */
 display: flex;
 align-items: center;
 
 /* align with parent's postion and align itself */
-position: absolute
+position: absolute; /* parent is positioned*/
 left: 50% /* 50% parent width */
 transform: translate(-50%) /* translate itself by 50% of its border-box * /
 ```
