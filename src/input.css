@@ -58,7 +58,7 @@
 
 .cf-adv-no-parallax {
   height: auto;
-  /* z-index: 999; */
+  z-index: 999;
   background: white;
 }
 
